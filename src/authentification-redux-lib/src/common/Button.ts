@@ -22,7 +22,7 @@ export const Button = styled.button`
 export const LinkButton = styled(Button)`
     background: 0 0;
     font-weight: 400;
-    color: #000;
+    color: gray;
     opacity: .85;
     margin-top: 14px;
     padding-top : 30px

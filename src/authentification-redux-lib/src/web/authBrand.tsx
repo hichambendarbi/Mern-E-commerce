@@ -4,6 +4,6 @@ import * as React from 'react';
 export const Brand = () =>
     <LoginBrandContainer className="Brand-container">
         <LoginBrandText>
-            LABOIRATOIRE CHU FES
+            LABOIRATOIRE CENTRAL CHU FES
         </LoginBrandText>
     </LoginBrandContainer>

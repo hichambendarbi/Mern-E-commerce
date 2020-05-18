@@ -62,8 +62,8 @@ export const LoginComponent: React.FunctionComponent<PropsFromContext> = (props)
                 >
                     <span >Log in</span>
                 </Button>
-                <LinkButton><Link to="/auth/signup" >Creer Un Compte</Link></LinkButton>
-                <LinkButton><Link to="/auth/reset-password" >J'Arrive Pas Acceder A Mon Compte?</Link></LinkButton>
+                <LinkButton><Link to="/auth/signup" style={{color: "gray"}}>Creer Un Compte</Link></LinkButton>
+                <LinkButton><Link to="/auth/reset-password" style={{color: "gray"}}>J'Arrive Pas Acceder A Mon Compte?</Link></LinkButton>
             </FormContainer>
         </>
     )

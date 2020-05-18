@@ -42,19 +42,20 @@ export const LoginBrandContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     flex: 1 0 auto;
 `
 
 export const LoginBrandText = styled.div`
     color: #117a8b;
-    font-size : 51px;
+    font-size : 20px;
+    max-width: 480px;
+    border: 2px solid #117a8b;
+    width: 480px;
+    padding: 1.5em;
+    border-radius: 5px;
     animation : ${animationFade} 2s ease-in-out;
 
-    span{
-        color : red;
-        font-weight : bold;
-        font-size: larger;
-    }
 `
 export const LoginGlobalStyle = createGlobalStyle`
     body { 
