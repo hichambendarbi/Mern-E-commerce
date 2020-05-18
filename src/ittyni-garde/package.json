@@ -1,0 +1,12 @@
+{
+  "name": "ittyni-lab-permanence",
+  "version": "1.0.0",
+  "description": "this is a module component for ittyni.com",
+  "main": "dist/index.js",
+  "types": "shift.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "khm@med",
+  "license": "MIT"
+}
