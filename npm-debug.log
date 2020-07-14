@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\khm@med\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v12.16.3
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle ecommerce@1.0.0~predev: ecommerce@1.0.0
+6 silly lifecycle ecommerce@1.0.0~predev: no script for predev, continuing
+7 info lifecycle ecommerce@1.0.0~dev: ecommerce@1.0.0
+8 verbose lifecycle ecommerce@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle ecommerce@1.0.0~dev: PATH: C:\Users\khm@med\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;D:\hicham\E-commerce\node_modules\.bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\khm@med\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\IVI Foundation\VISA\Win64\Bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs;C:\Program Files\MongoDB\bin
+10 verbose lifecycle ecommerce@1.0.0~dev: CWD: D:\hicham\E-commerce
+11 silly lifecycle ecommerce@1.0.0~dev: Args: [ '/d /s /c', 'concurrently "npm run server" "npm run client"' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at process.kill (internal/process/per_thread.js:197:13)
+12 verbose stack     at process.listener (C:\Users\khm@med\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at process.emit (events.js:322:22)
+13 verbose cwd D:\hicham\E-commerce
+14 error Windows_NT 6.1.7601
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\khm@med\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+16 error node v12.16.3
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]

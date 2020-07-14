@@ -1,0 +1,4 @@
+{
+    "mongoURI": "YOUR PATH MONGODB COMPASS OR ATLAS",
+    "jwtSecret": "secretToken"
+}
