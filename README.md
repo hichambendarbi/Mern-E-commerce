@@ -4,6 +4,5 @@ Mern stack Ecommerce platforme
 gmail: bendarbiApp@gmail.com
 
 <img src="3DstoreRedux.PNG" />
-![](images/PanierCart.PNG)
-![](images/Capte.PNG)
-![](images/3DstoreRedux.PNG)
+<img src="PanierCart.PNG" />
+<img src="Capte.PNG" />
